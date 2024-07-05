@@ -830,6 +830,7 @@ html {
     justify-content: center; 
     align-items: center;
     width: 100%;
+    padding-bottom: 100px ;
   }
   
   .contact h2 {
@@ -884,15 +885,15 @@ html {
     margin-top: -8px;
   }
   
-  form button {
-    font-size: 21px;
+  .button a {
+    margin-top: 10px;
+    margin-top: 10px;
+    font-size: 22px;
     font-weight: 500;
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 12px 32px;
-    margin-top: 20px;
-    margin-bottom: 100px;
+    padding: 5px 20px;
     background: var(--color-one);
     color: var(--color-two);
     border: 0;
@@ -902,11 +903,12 @@ html {
     cursor: pointer;
   }
   
-  form button:hover {
+  form a:hover {
     font-size: 23px;
     transition: 0.2s ease;
   }
-  
+
+
   /* End Contact */
   
   
@@ -928,7 +930,14 @@ html {
   
   /* End About us */
   
-  
+  .footer {
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--color-one);
+    color: var(--color-two);
+  }
+
   /* Responsive */
   
   @media (max-width: 1694px) {
@@ -2777,6 +2786,199 @@ html {
       margin-right: auto;
     }
   }
+
+  
+
+@media (max-width: 991.98px) {
+  .section-one .inner-wrap .inner-box p {
+    width: 83%;
+  }
+
+  .menu-icon {
+    margin: 0 30px;
+  }
+
+  .section-four .container .inner-wrap {
+    width: 45%;
+    margin: 20px 8px;
+  }
+
+  .section-four .container {
+    padding: 80px 0;
+  }
+
+  .section-four .container .inner-wrap .inner-title p {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 42px;
+    margin: 0;
+    margin-top: 23px;
+  }
+
+  .section-five .container .inner-wrap .inner-title p {
+    font-size: 16px;
+    padding-top: 3px;
+  }
+
+  .section-six .container .inner-wrap {
+    width: 45%;
+    margin: 20px 8px;
+  }
+
+  .section-six .container {
+    padding: 80px 0;
+  }
+
+  .section-six .container .inner-wrap .inner-title p {
+    margin-top: 28px;
+}
+}
+
+@media (max-width: 1199.98px) {
+  .section-one .inner-wrap .inner-box p {
+    margin-bottom: 80px;
+  }
+
+  .section-four .container {
+    padding: 80px 0;
+  }
+
+  .section-four .container .inner-wrap {
+    margin: 10px 10px;
+  }
+
+  .section-six .container {
+    padding: 80px 0;
+  }
+
+  .section-six .container .inner-wrap {
+    margin: 10px 10px;
+  }
+
+  .section-six .container .inner-wrap .inner-title {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .menu-icon {
+    top: 2.7%;
+    margin: 0 2px;
+  }
+
+  .header {
+    padding: 3px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .section-one .inner-wrap .inner-box p {
+    text-align: center;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    padding: 5px;
+    border-radius: 0%;
+    border-radius: 10px;
+  }
+
+  .section-two .inner-des {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #f87305;
+  }
+
+  .section-two .inner-wrap .inner-image {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-two .inner-wrap .inner-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-two {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  .section-three .inner-wrap .inner-image {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-three .inner-wrap .inner-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-three {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+
+  .section-four .container .inner-wrap {
+    width: 90%;
+    margin: 20px 8px;
+  }
+
+  .section-four .container {
+    padding: 80px 0;
+  }
+
+  .section-four .container .inner-wrap .inner-title p {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 42px;
+    margin: 0;
+    margin-top: 23px;
+  }
+
+  .section-five .container .inner-wrap {
+    width: 90%;
+    margin: 20px 8px;
+  }
+
+  .section-five .container {
+    padding: 80px 0;
+  }
+
+  .section-five .container .inner-wrap .inner-title p {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin: 0;
+    margin-top: 23px;
+  }
+
+  .section-six .container .inner-wrap {
+    width: 90%;
+    margin: 20px 8px;
+  }
+
+  .section-six .container {
+    padding: 80px 0;
+  }
+
+  .section-six .container .inner-wrap .inner-title p {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 23px;
+    margin: 0;
+    margin-top: 23px;
+  }
+
+  .contact form {
+    padding: 0 2px;
+  }
+}
   
   
   
