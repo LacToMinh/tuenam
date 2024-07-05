@@ -2823,7 +2823,7 @@ html {
 @media (max-width: 575.98px) {
   .menu-icon {
     top: 2.7%;
-    margin: 0 2px;
+    margin: 0 10px;
   }
 
   .header {
