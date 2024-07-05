@@ -129,7 +129,6 @@ html {
   
   .header .inner-social ul li {
     margin-right: 14px;
-    /* margin-left: 14px; */
   }
   
   .header .inner-social ul li a {
@@ -200,7 +199,6 @@ html {
     text-align: center;
     border-radius: 40px;
     padding: 20px;
-    /* margin-right: 36px; */
     font-size: 24px;
     font-weight: 500;
     line-height: 1.6;
@@ -248,14 +246,12 @@ html {
   .section-one .inner-wrap .box-cover .box-in-down {
     margin-top: 60px;
     margin-bottom: 60px;
-    /* color: var(--color-two); */
   }
   
   .section-one .inner-wrap .box-cover .box-in-down img {
     display: flex;
     width: 400px;
     height: 300px;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     border-radius: 40px;
@@ -300,14 +296,12 @@ html {
   
   .section-two .inner-wrap .inner-image img {
     width: 100%;
-    /* height: 30%; */
     height: 650px;
     object-fit: cover;
     border-radius: 20px;
   }
   
   .section-two .inner-wrap .inner-content {
-    /* flex: 1; */
     padding-top: 30px;
     width: 53%;
   }
@@ -384,25 +378,21 @@ html {
   
   .section-three .inner-wrap {
     display: flex;
-    /* align-items: center; */
   }
   
   .section-three .inner-wrap .inner-image {
     width: 47%;
-    /* height: 900px; */
     margin-left: 4%;
   }
   
   .section-three .inner-wrap .inner-image img {
     width: 100%;
-    /* height: 30%; */
     height: 650px;
     object-fit: cover;
     border-radius: 20px;
   }
   
   .section-three .inner-wrap .inner-content {
-    /* flex: 1; */
     padding-top: 30px;
     width: 53%;
   }
@@ -473,13 +463,13 @@ html {
   
   .section-four .container {
     display: flex;
-    justify-content: space-around; /* hoặc space-between */
+    justify-content: space-around; 
     flex-wrap: wrap;
   }
   
   .section-four .container .inner-wrap {
-    width: 23%; /* Giữ nguyên kích cỡ ban đầu */
-    margin: 150px 10px; /* Khoảng cách giữa các phần tử */
+    width: 23%;
+    margin: 150px 10px; 
     padding: 20px;
     text-align: center;
     border: 3px solid black;
@@ -581,7 +571,7 @@ html {
   }
   
   .section-five .container .inner-wrap {
-    width: 26%; /* Ban đầu 26% cho màn hình lớn hơn 1200px */
+    width: 26%; 
     padding: 30px;
     text-align: center;
     border: 5px solid var(--color-two);
@@ -666,8 +656,8 @@ html {
   }
   
   .section-six .container .inner-wrap {
-    width: 23%; /* Ban đầu 24% cho màn hình lớn hơn 1200px */
-    margin: 150px 10px; /* Khoảng cách giữa các phần tử */
+    width: 23%; 
+    margin: 150px 10px; 
     padding: 30px;
     text-align: center;
     border: 3px solid black;
@@ -749,7 +739,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Màu nền mờ */
+    background-color: rgba(0, 0, 0, 0.8); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -763,7 +753,7 @@ html {
     max-width: 700px;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: relative; /* Đảm bảo nút đóng được định vị tương đối */
+    position: relative; 
   }
   
   #job-description h2 {
@@ -779,8 +769,8 @@ html {
   }
   
   #job-description button {
-    background-color: var(--color-one); /* Màu nền vàng */
-    color: var(--color-two); /* Chữ màu đen */
+    background-color: var(--color-one); 
+    color: var(--color-two);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -793,7 +783,7 @@ html {
   }
   
   #job-description button:hover {
-    background-color: darkorange; /* Màu nền khi hover */
+    background-color: darkorange; 
     color: black;
   }
   
@@ -869,7 +859,6 @@ html {
   .field .error-txt {
     font-size: 14.5px;
     color: #d93025;
-    /* color: red; */
     margin-top: -5px;
     margin-bottom: 5px;
     margin-right: 46%;
@@ -907,7 +896,6 @@ html {
     font-size: 23px;
     transition: 0.2s ease;
   }
-
 
   /* End Contact */
   
@@ -1048,7 +1036,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   }
   
@@ -1085,7 +1072,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   }
   
@@ -1117,7 +1103,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   }
   
@@ -1149,7 +1134,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   }
   
@@ -1181,7 +1165,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   }
   
@@ -1219,7 +1202,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   }
   
@@ -1251,7 +1233,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   }
   
@@ -1391,7 +1372,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   
     .section-one .inner-wrap .box-cover .box-in-down img {
@@ -1435,7 +1415,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   
     .section-one .inner-wrap .box-cover .box-in-down img {
@@ -1699,7 +1678,6 @@ html {
     
     .section-two .inner-wrap .inner-image img {
       width: 100%;
-      /* height: 30%; */
       height: 600px;
       object-fit: cover;
       border-radius: 20px;
@@ -1726,7 +1704,6 @@ html {
     
     .section-three .inner-wrap .inner-image img {
       width: 100%;
-      /* height: 30%; */
       height: 600px;
       object-fit: cover;
       border-radius: 20px;
@@ -1828,7 +1805,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   
     .section-one .inner-wrap .box-cover .box-in-down img {
@@ -1982,7 +1958,6 @@ html {
     .section-one .inner-wrap .box-cover .box-in-down {
       margin-top: 40px;
       margin-bottom: 40px;
-      /* color: var(--color-two); */
     }
   
     .section-one .inner-wrap .box-cover .box-in-down img {
@@ -2189,8 +2164,7 @@ html {
       margin-left: 10.5%;
     }
   }
-  
-  
+
   
   /* Bars */
   
@@ -2225,17 +2199,15 @@ html {
   }
   
   .inner-menu li {
-    /* padding: 14px 20px; */
-    display: none; /* Initially hide all items */
+    display: none; 
   }
   
   .inner-menu li.show {
-    display: block; /* Show items based on pagination */
+    display: block; 
   }
   
   .inner-menu li a {
     text-decoration: none;
-    /* padding: 100px; */
   }
   
   .menu-icon {
@@ -2305,7 +2277,7 @@ html {
   
     .inner-menu li {
       padding: 14px 20px;
-      display: none; /* Initially hide all items */
+      display: none; 
     }
   }
   
@@ -2382,7 +2354,7 @@ html {
     }
   
     .section-four .container .inner-wrap {
-      width: 24%; /* Giữ nguyên kích cỡ ban đầu */
+      width: 24%; 
       padding: 20px 10px;
       text-align: center;
       border: 3px solid black;
@@ -2393,99 +2365,87 @@ html {
   
   @media screen and (max-width: 1200px) {
     .section-four .container .inner-wrap {
-      width: 31.33%; /* 3 phần tử trên 1 hàng */
+      width: 31.33%; 
     }
   }
-  
-  /* Thiết lập cho màn hình từ 992px đến 1199px */
+
   @media screen and (max-width: 992px) {
     .section-four .container .inner-wrap {
-      width: 31.33%; /* 3 phần tử trên 1 hàng */
+      width: 31.33%; 
     }
   }
-  
-  /* Thiết lập cho màn hình từ 768px đến 991px */
+
   @media screen and (max-width: 768px) {
     .section-four .container .inner-wrap {
-      width: 48%; /* 2 phần tử trên 1 hàng */
+      width: 48%; 
     }
   }
-  
-  /* Thiết lập cho màn hình từ 576px đến 767px */
+
   @media screen and (max-width: 576px) {
     .section-four .container .inner-wrap {
-      width: 100%; /* 1 phần tử trên 1 hàng */
+      width: 100%; 
     }
   }
   
   @media screen and (max-width: 1200px) {
     .section-five .container .inner-wrap {
-      width: 31.33%; /* 3 phần tử trên 1 hàng */
+      width: 31.33%; 
     }
   }
-  
-  /* Thiết lập cho màn hình từ 992px đến 1199px */
+
   @media screen and (max-width: 992px) {
     .section-five .container .inner-wrap {
-      width: 31.33%; /* 3 phần tử trên 1 hàng */
+      width: 31.33%; 
     }
   }
-  
-  /* Thiết lập cho màn hình từ 768px đến 991px */
+
   @media screen and (max-width: 768px) {
     .section-five .container .inner-wrap {
-      width: 48%; /* 2 phần tử trên 1 hàng */
+      width: 48%; 
     }
   }
-  
-  /* Thiết lập cho màn hình từ 576px đến 767px */
+
   @media screen and (max-width: 576px) {
     .section-five .container .inner-wrap {
-      width: 100%; /* 1 phần tử trên 1 hàng */
+      width: 100%; 
     }
   }
-  
-  /* Thiết lập cho màn hình nhỏ hơn 576px */
+
   @media screen and (max-width: 575px) {
     .section-five .container .inner-wrap {
-      width: 100%; /* 1 phần tử trên 1 hàng */
-      margin-bottom: 0; /* Loại bỏ khoảng cách dưới mỗi phần tử */
+      width: 100%; 
+      margin-bottom: 0;
     }
   }
-  
-  /* Thiết lập cho màn hình lớn hơn 1200px */
+ 
   @media screen and (max-width: 1200px) {
     .section-six .container .inner-wrap {
-      width: 31.33%; /* 3 phần tử trên 1 hàng */
+      width: 31.33%; 
     }
   }
-  
-  /* Thiết lập cho màn hình từ 992px đến 1199px */
+
   @media screen and (max-width: 992px) {
     .section-six .container .inner-wrap {
-      width: 31.33%; /* 3 phần tử trên 1 hàng */
+      width: 31.33%; 
     }
   }
   
-  /* Thiết lập cho màn hình từ 768px đến 991px */
   @media screen and (max-width: 768px) {
     .section-six .container .inner-wrap {
-      width: 48%; /* 2 phần tử trên 1 hàng */
+      width: 48%; 
     }
   }
   
-  /* Thiết lập cho màn hình từ 576px đến 767px */
   @media screen and (max-width: 576px) {
     .section-six .container .inner-wrap {
-      width: 100%; /* 1 phần tử trên 1 hàng */
+      width: 100%; 
     }
   }
   
-  /* Thiết lập cho màn hình nhỏ hơn 576px */
   @media screen and (max-width: 575px) {
     .section-six .container .inner-wrap {
-      width: 100%; /* 1 phần tử trên 1 hàng */
-      margin-bottom: 0; /* Loại bỏ khoảng cách dưới mỗi phần tử */
+      width: 100%; 
+      margin-bottom: 0; 
     }
   }
   
@@ -2510,10 +2470,10 @@ html {
   }
   
   .section-six .container .inner-wrap .inner-title p {
-    font-size: 20px; /* Kích thước chữ cho tiêu đề */
+    font-size: 20px; 
     font-weight: 600;
-    margin-top: 20px; /* Khoảng cách từ tiêu đề đến hình ảnh */
-    margin-bottom: 10px; /* Khoảng cách từ tiêu đề đến lương */
+    margin-top: 20px; 
+    margin-bottom: 10px; 
   }
   
   .section-six .container .inner-wrap .salary {
@@ -2531,7 +2491,7 @@ html {
   .section-six .container .inner-wrap .salary i,
   .section-six .container .inner-wrap .salary p {
     margin: 0;
-    font-size: 17px; /* Kích thước chữ cho mức lương */
+    font-size: 17px; 
     font-weight: 500;
   }
   
@@ -2541,7 +2501,7 @@ html {
     letter-spacing: 0.6px;
     text-transform: uppercase;
     color: black;
-    font-size: 16px; /* Kích thước chữ cho nút đăng ký */
+    font-size: 16px; 
     font-weight: 600;
     border-radius: 20px;
     padding: 10px 26px;
@@ -2579,7 +2539,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Màu nền mờ */
+    background-color: rgba(0, 0, 0, 0.8); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2593,7 +2553,7 @@ html {
     max-width: 700px;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: relative; /* Đảm bảo nút đóng được định vị tương đối */
+    position: relative; 
   }
   
   #job-description h2 {
@@ -2609,8 +2569,8 @@ html {
   }
   
   #job-description button {
-    background-color: var(--color-one); /* Màu nền vàng */
-    color: var(--color-two); /* Chữ màu đen */
+    background-color: var(--color-one); 
+    color: var(--color-two);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -2623,21 +2583,21 @@ html {
   }
   
   #job-description button:hover {
-    background-color: darkorange; /* Màu nền khi hover */
+    background-color: darkorange; 
     color: black;
   }
   
   @media screen and (max-width: 575px) {
     #job-description {
-      padding: 20px; /* Giảm padding cho màn hình nhỏ */
+      padding: 20px; 
     }
   
     #job-description h2 {
-      font-size: 18px; /* Giảm kích thước chữ cho màn hình nhỏ */
+      font-size: 18px; 
     }
   
     #job-description p {
-      font-size: 16px; /* Giảm kích thước chữ cho màn hình nhỏ */
+      font-size: 16px;
     }
   }
   
@@ -2979,8 +2939,6 @@ html {
     padding: 0 2px;
   }
 }
-  
-  
   
   /* End Bars */
   

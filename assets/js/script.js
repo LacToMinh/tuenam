@@ -48,8 +48,6 @@ document.querySelectorAll('.inner-menu a').forEach(anchor => {
     });
 });
 
-
-
 // Bars
 
 
