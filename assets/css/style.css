@@ -189,9 +189,11 @@ html {
   }
   
   .section-one .inner-wrap .inner-box h1 {
-    margin-left: 5.5%;
+    margin-right: 7.5%;
     text-transform: uppercase;
     padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
   }
   
   .section-one .inner-wrap .inner-box p {
@@ -2643,10 +2645,38 @@ html {
       margin-left: 0;
     }
   }
+
+  @media (max-width: 1489px) {
+    .section-one .inner-wrap .inner-box h1 {
+      margin-right: 17.5%;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 1695px) {
+    .section-one .inner-wrap .inner-box h1 {
+      margin-right: 20.5%;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      font-size: 18px;
+      text-align: center;
+    }
+  }
   
   @media (max-width: 1189px) {
     .section-one .inner-wrap .box .box-left {
       background-color: var(--color-two);
+    }
+
+    .section-one .inner-wrap .inner-box h1 {
+      margin-right: 20.5%;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      font-size: 16px;
+      text-align: center;
     }
   }
   
@@ -2834,6 +2864,10 @@ html {
     position: sticky;
     top: 0;
     z-index: 1;
+  }
+
+  .section-one .inner-wrap .inner-box h1 {
+    font-size: 14px;
   }
 
   .section-one .inner-wrap .inner-box p {
