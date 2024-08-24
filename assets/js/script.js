@@ -206,5 +206,3 @@ document.querySelectorAll('.show-description').forEach(button => {
 
 
 // End Description
-
-
