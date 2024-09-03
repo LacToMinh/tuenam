@@ -3091,3 +3091,45 @@ html {
   font-size: 30px;
   cursor: pointer;
 }
+
+
+/* document */
+
+.tai-lieu{
+  width: 100%;
+  background-color: white;
+}
+
+.tai-lieu .container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tai-lieu .container .inner-wrap {
+  width: 20%;
+  /* margin: 150px 0px;  */
+  background: white;
+  
+}
+
+.tai-lieu .container .inner-wrap .inner-image {
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.tai-lieu .container .inner-wrap img {
+  transition: all 0.5s;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.tai-lieu .container .inner-wrap img:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+/* End document */
