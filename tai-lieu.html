@@ -1,84 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuệ Nam Education</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="assets/images/logo-tue-nam.png">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-        <div class="tai-lieu">
-            <div class="container">
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <a href="https://drive.google.com/file/d/1Sb9Gc4Pd-tYO1y0NOpng1aOOS75IdvAY/view" target="_blank">
-                            <img src="assets/images/Thiết kế chưa có tên (2).png" alt="">
-                        </a>
-                    </div>
-                    <div class="inner-desc">
-                        <p>ĐỀ THI TIẾNG ANH</p>
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <a href="https://drive.google.com/file/d/1mFTOPyYTFI3i_N7ZUQbV36v04qelww_t/view?usp=sharing" target="_blank">
-                            <img src="assets/images/ANH-12.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <img src="assets/images/ANH-12.png" alt="">
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <img src="assets/images/ANH-12.png" alt="">
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <img src="assets/images/ANH-12.png" alt="">
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <img src="assets/images/ANH-12.png" alt="">
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <img src="assets/images/ANH-12.png" alt="">
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <img src="assets/images/ANH-12.png" alt="">
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <img src="assets/images/ANH-12.png" alt="">
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <img src="assets/images/ANH-12.png" alt="">
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <img src="assets/images/ANH-12.png" alt="">
-                    </div>
-                </div>
-                <div class="inner-wrap">
-                    <div class="inner-image">
-                        <img src="assets/images/ANH-12.png" alt="">
-                    </div>
-                </div>
-            </div>
+<header class="header">
+    <div class="inner-wrap">
+    <div class="inner-logo">
+      <a href="#">
+        <img src="assets/images/Remove-bg.ai_1719714851964.png" alt="logo">
+        <span>TUE NAM</span>
+        <span class="edu">EDUCATION</span>
+      </a>
+      <!-- <span class="des">DẠY HỌC VÀ LUYỆN THI</span> -->
+    </div>
+    <div class="menu-container">
+      <div class="menu-icon" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+      </div>
+      <div class="overlay" onclick="toggleMenu()"></div>
+      <div class="inner-menu">
+          <div class="close-btn" onclick="toggleMenu()">
+              <i class="fas fa-times"></i>
+          </div>
+          <ul>
+              <li class="btn" onclick="prevPage()"><i class="fas fa-angle-left"></i></li>
+              <li class="numb"><a href="index.html#home">Giới thiệu</a></li>
+              <li class="numb"><a href="index.html#khoa-hoc">Khóa học</a></li>
+              <li class="numb"><a href="index.html#dich-vu">Dịch vụ</a></li>
+              <li class="numb"><a href="index.html#tuyen-dung">Tuyển dụng</a></li>
+              <li class="numb"><a href="index.html#lien-he">Liên hệ</a></li>
+              <li class="numb"><a href="tai-lieu.html">Tài Liệu</a></li>
+              <li class="btn" onclick="nextPage()"><i class="fas fa-angle-right"></i></li>
+          </ul>
+      </div>
+    </div>
+    <div class="inner-social">
+      <ul>
+        <li>
+          <a href="https://zalo.me/0369984849" target="_blank">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=61560259781388&mibextid=LQQJ4d" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/messages/t/348551191668350" target="_blank">
+            <i class="fa-brands fa-facebook-messenger"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>
+</header>
+
+
+<!-- Image -->
+<div class="image">
+  <div class="inner-image">
+    <img src="assets/images/sach.jpg" alt="Hình ảnh sách">
+  </div>
+</div>
+<!-- End Image -->
+
+
+<!-- Document -->
+<div class="tai-lieu">
+  <div class="container">
+    <div class="inner-wrap">
+        <div class="inner-image">
+          <a href="https://drive.google.com/file/d/1Sb9Gc4Pd-tYO1y0NOpng1aOOS75IdvAY/view" target="_blank">
+            <img src="assets/images/TOÁN-12.png" alt="">
+          </a>
         </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <a href="https://drive.google.com/file/d/1mFTOPyYTFI3i_N7ZUQbV36v04qelww_t/view?usp=sharing" target="_blank">
+            <img src="assets/images/TOÁN-11.png" alt="">
+          </a>
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <img src="assets/images/TOÁN-10.png" alt="">
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <img src="assets/images/TOÁN-9.png" alt="">
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <img src="assets/images/ANH-12.png" alt="">
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <img src="assets/images/ANH-11.png" alt="">
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <img src="assets/images/ANH-10.png" alt="">
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <img src="assets/images/ANH-9.png" alt="">
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <img src="assets/images/VĂN-12.png" alt="">
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <img src="assets/images/VĂN-11.png" alt="">
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <img src="assets/images/VĂN-10.png" alt="">
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+      <div class="inner-wrap">
+        <div class="inner-image">
+          <img src="assets/images/VĂN-9.png" alt="">
+        </div>
+        <div class="inner-desc">
+          <p>ĐỀ THI TIẾNG ANH</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- End Document -->
+<div class="icon-container">
+  <!-- Zalo Icon -->
+  <a href="https://zalo.me/0369984849" target="_blank" class="icon">
+      <img src="https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/2500/zalo-seeklogo.com-1024.png" alt="Zalo">
+      <span>Zalo</span>
+  </a>
+  
+  <!-- Messenger Icon -->
+  <a href="https://www.facebook.com/trungtamdayhocvaluyenthi" target="_blank" class="icon">
+      <img src="assets/images/communication.png" alt="Facebook">
+      <span>Facebook</span>
+  </a>
+  
+  <!-- Phone Icon -->
+  <a href="https://www.tiktok.com/@dayhocvaluyenthi" target="_blank" class="icon">
+      <img src="assets/images/tik-tok.png" alt="Tiktok">
+      <span>Tiktok</span>
+  </a>
+</div>
+  
+  <!-- Footer -->
+<div class="footer">
+  © Designed & Developed by LTM
+</div>
+<!-- End Footer -->
+  
+  
+<!-- Javascript -->
+<script src="assets/js/script.js"></script>
+<!-- Javascript -->
+
 </body>
 </html>
+

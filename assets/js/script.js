@@ -25,6 +25,7 @@ function prevPage() {
     }
 }
 
+
 // Initial display
 showItems();
 
@@ -47,7 +48,6 @@ document.querySelectorAll('.inner-menu a').forEach(anchor => {
         ul.classList.remove('show');
     });
 });
-
 // Bars
 
 
